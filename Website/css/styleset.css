@@ -40,13 +40,13 @@ body {
   color: #ffffff;
 }
 
-img {
+.home_img {
   position: relative;
-  width: 35%;
-  height: 35%;
+  width: 32%;
+  height: 32%;
   border-radius: 50%;
-  left: 1025px;
-  top: -250px;
+  left: 1050px;
+  top: -270px;
 }
 
 .home_body {
@@ -90,9 +90,26 @@ img {
 .about_body {
   font-family: 'Poppins', sans-serif;
   font-size: 55px;
-  padding: 60px 60px;
   position: relative;
-  top: 100px;
+  text-align: center;
+  top: 30px;
+}
+
+.about_p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.about_img {
+  position: relative;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  top: 2px;
+  right: -710px;
 }
 
 .footer{
