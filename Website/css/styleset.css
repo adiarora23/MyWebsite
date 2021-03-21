@@ -45,8 +45,8 @@ body {
   width: 32%;
   height: 32%;
   border-radius: 50%;
-  left: 1050px;
-  top: -270px;
+  left: 1100px;
+  top: -280px;
 }
 
 .home_body {
@@ -65,7 +65,7 @@ body {
   top: -8px;
 }
 
-.home_button {
+.home_about_button {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   font-size: 15px;
@@ -82,7 +82,29 @@ body {
   cursor: pointer;
 }
 
-.home_button:hover {
+.home_about_button:hover {
+  background-color: #ffffff;
+  color: #2C2F33;
+}
+
+.home_contact_button {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  width: 100px;
+  height: 60px;
+  border: none;
+  color: #ffffff;
+  background-color: #23272A;
+  position: absolute;
+  top: 440px;
+  left: 180px;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.home_contact_button:hover {
   background-color: #ffffff;
   color: #2C2F33;
 }
@@ -97,19 +119,73 @@ body {
 
 .about_p {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
   top: 30px;
 }
 
 .about_img {
   position: relative;
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
   top: 2px;
-  right: -710px;
+  right: -760px;
+}
+
+.about_a {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.contact_body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 55px;
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+.contact_p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.contact_img1 {
+  position: relative;
+  width: 12%;
+  height: 12%;
+  left: 640px;
+  top: 30px;
+}
+
+.contact_img2 {
+  position: relative;
+  width: 12%;
+  height: 12%;
+  left: 1000px;
+  top: -265px;
+}
+
+.contact_img_subtitle1 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  left: 715px;
+  top: 30px;
+}
+
+.contact_img_subtitle2 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  left: 1080px;
+  top: -268px;
 }
 
 .footer{
