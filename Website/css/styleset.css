@@ -162,7 +162,7 @@ body {
   width: 600px;
   height: 500px;
   margin: 40px 0;
-  background: #23272A;
+  background-color: #23272A;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   display: flex;
@@ -180,7 +180,7 @@ body {
   width: 600px;
   height: 500px;
   margin: 40px 0;
-  background: #23272A;
+  background-color: #23272A;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   display: flex;
@@ -429,10 +429,301 @@ body {
   width: 300px;
   text-align: center;
   word-wrap: normal;
+}
+
+.education_body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 55px;
+  position: relative;
+  text-align: center;
+  top: 10px;
+}
+
+.education_box_1 {
+  position: absolute;
+  left: 525px;
+  top: 200px;
+  width: 400px;
+  height: 300px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
 
 }
 
-.footer{
+.education_box_1 p {
+  transform: translateX(15%)
+}
+
+.education_box_2 {
+  position: absolute;
+  left: 950px;
+  top: 200px;
+  width: 400px;
+  height: 300px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_box_3 {
+  position: absolute;
+  left: 525px;
+  top: 525px;
+  width: 400px;
+  height: 300px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+}
+
+.education_box_3 p {
+  transform: translateX(10%);
+}
+
+.education_box_4 {
+  position: absolute;
+  left: 950px;
+  top: 525px;
+  width: 400px;
+  height: 300px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+}
+
+.education_box_4 p {
+  text-align: center;
+}
+
+.education_subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+  top: 650px;
+  right: 10px;
+}
+
+.education_course_box_1 {
+  position: absolute;
+  left: 525px;
+  top: 950px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+}
+
+.education_course_box_2 {
+  position: absolute;
+  left: 950px;
+  top: 950px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_3 {
+  position: absolute;
+  left: 525px;
+  top: 1175px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_4 {
+  position: absolute;
+  left: 950px;
+  top: 1175px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_5 {
+  position: absolute;
+  left: 525px;
+  top: 1400px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_6 {
+  position: absolute;
+  left: 950px;
+  top: 1400px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_7 {
+  position: absolute;
+  left: 525px;
+  top: 1625px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_8 {
+  position: absolute;
+  left: 950px;
+  top: 1625px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_9 {
+  position: absolute;
+  left: 525px;
+  top: 1850px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.education_course_box_10 {
+  position: absolute;
+  left: 950px;
+  top: 1850px;
+  width: 400px;
+  height: 200px;
+  margin: 40px 0;
+  background: #23272A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+.footer {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   position: fixed;
