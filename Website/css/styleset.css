@@ -1,3 +1,4 @@
+/* General Content */
 html {
   margin: 0;
 }
@@ -46,6 +47,7 @@ body {
   margin: 0;
 }
 
+/* Home page (index.html) */
 .home_img {
   position: relative;
   width: 32%;
@@ -116,6 +118,7 @@ body {
   color: #2C2F33;
 }
 
+/* About page (about.html) */
 .about_body {
   font-family: 'Poppins', sans-serif;
   font-size: 55px;
@@ -216,6 +219,40 @@ body {
   color: #ffffff;
 }
 
+.about_video {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 1450px;
+  left: 500px;
+}
+
+.video {
+  position: absolute;
+  top: 1590px;
+  left: 650px;
+}
+
+/* This is a break between the footer and the information on the about page */
+.about_break {
+  position: absolute;
+  left: 650px;
+  top: 2000px;
+  width: 300px;
+  height: 100px;
+  margin: 40px 0;
+  background: #2C2F33;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2C2F33;
+  border-radius: 5%;
+  word-wrap: normal;
+}
+
+/* Contact page (contact.html) */
 .contact_body {
   font-family: 'Poppins', sans-serif;
   font-size: 55px;
@@ -265,6 +302,7 @@ body {
   top: -268px;
 }
 
+/* Projects page (projects.html) */
 .projects_body {
   font-family: 'Poppins', sans-serif;
   font-size: 55px;
@@ -431,6 +469,7 @@ body {
   word-wrap: normal;
 }
 
+/* Education page (education.html) */
 .education_body {
   font-family: 'Poppins', sans-serif;
   font-size: 55px;
@@ -723,6 +762,27 @@ body {
 
 }
 
+/* this is to give space at the end of the website */
+.empty_box {
+  position: absolute;
+  left: 950px;
+  top: 2100px;
+  width: 300px;
+  height: 100px;
+  margin: 40px 0;
+  background: #2C2F33;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2C2F33;
+  border-radius: 5%;
+  word-wrap: normal;
+
+}
+
+/* Footer (used across all .html files) */
 .footer {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -735,6 +795,7 @@ body {
   text-align: center;
 }
 
+/* Tried to include responsiveness in code, but it did not work out for the entire website */
 @media screen and (max-width:768px) {
   .home_body {
     position: absolute;
