@@ -11,10 +11,10 @@ header {
 }
 
 h1 {
-  position: absolute;
+  position: relative;
   padding: 3px;
   float: left;
-  margin-left: 2%;
+  margin-left: 20px;
   margin-top: 10px;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
@@ -25,7 +25,7 @@ ul {
   width: auto;
   float: right;
   margin-top: 8px;
-  margin-right: 2%;
+  margin-right: 15px;
 }
 
 li {
@@ -50,19 +50,19 @@ body {
 /* Home page (index.html) */
 .home_img {
   position: relative;
-  width: 32%;
-  height: 32%;
+  width: 375px;
+  height: 375px;
   border-radius: 50%;
-  left: 1100px;
-  top: -280px;
+  left: 775px;
+  top: -275px;
 }
 
 .home_body {
   font-family: 'Poppins', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   padding: 60px 60px;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 .home_p {
@@ -70,7 +70,7 @@ body {
   font-size: 30px;
   padding-left: 60px;
   position: relative;
-  top: -8px;
+  top: -60px;
   margin: 0;
 }
 
@@ -84,8 +84,8 @@ body {
   color: #ffffff;
   background-color: #23272A;
   position: absolute;
-  top: 440px;
-  left: 65px;
+  top: 345px;
+  left: 62px;
   border-radius: 5px;
   transition-duration: 0.3s;
   cursor: pointer;
@@ -106,8 +106,8 @@ body {
   color: #ffffff;
   background-color: #23272A;
   position: absolute;
-  top: 440px;
-  left: 180px;
+  top: 345px;
+  left: 178px;
   border-radius: 5px;
   transition-duration: 0.3s;
   cursor: pointer;
@@ -121,7 +121,7 @@ body {
 /* About page (about.html) */
 .about_body {
   font-family: 'Poppins', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   position: relative;
   text-align: center;
   top: 10px;
@@ -140,11 +140,11 @@ body {
 
 .about_img {
   position: relative;
-  width: 23%;
-  height: 23%;
+  width: 325px;
+  height: 325px;
   border-radius: 50%;
   top: -10px;
-  right: -727px;
+  left: 468px;
 }
 
 .about_a {
@@ -159,15 +159,15 @@ body {
 }
 
 .about_box1 {
-  position: absolute;
-  left: 300px;
+  position: relative;
+  left: 190px;
   top: 20px;
-  width: 600px;
-  height: 500px;
+  width: 400px;
+  height: 300px;
   margin: 40px 0;
   background-color: #23272A;
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -177,15 +177,15 @@ body {
 }
 
 .about_box2 {
-  position: absolute;
-  left: 1000px;
-  top: 20px;
-  width: 600px;
-  height: 500px;
+  position: relative;
+  left: 690px;
+  top: -661px;
+  width: 400px;
+  height: 300px;
   margin: 40px 0;
   background-color: #23272A;
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -201,20 +201,20 @@ body {
 
 .about_li {
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 16px;
   position: relative;
-  top: 110px;
-  left: 490px;
+  top: -295px;
+  left: 300px;
   display: list-item;
   color: #ffffff;
 }
 
 .about_li2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 16px;
   position: relative;
-  top: -295px;
-  left: 1150px;
+  top: -978px;
+  left: 775px;
   display: list-item;
   color: #ffffff;
 }
@@ -222,40 +222,21 @@ body {
 .about_video {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
-  position: absolute;
-  top: 1450px;
-  left: 500px;
+  position: relative;
+  top: -970px;
+  left: 215px;
 }
 
 .video {
-  position: absolute;
-  top: 1590px;
-  left: 650px;
-}
-
-/* This is a break between the footer and the information on the about page */
-.about_break {
-  position: absolute;
-  left: 650px;
-  top: 2000px;
-  width: 300px;
-  height: 100px;
-  margin: 40px 0;
-  background: #2C2F33;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #2C2F33;
-  border-radius: 5%;
-  word-wrap: normal;
+  position: relative;
+  top: -1000px;
+  left: 350px;
 }
 
 /* Contact page (contact.html) */
 .contact_body {
   font-family: 'Poppins', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   position: relative;
   text-align: center;
   top: 10px;
@@ -272,49 +253,49 @@ body {
 
 .contact_img1 {
   position: relative;
-  width: 12%;
-  height: 12%;
-  left: 640px;
+  width: 175px;
+  height: 175px;
+  left: 400px;
   top: 30px;
 }
 
 .contact_img2 {
   position: relative;
-  width: 12%;
-  height: 12%;
-  left: 1000px;
-  top: -265px;
+  width: 175px;
+  height: 175px;
+  left: 675px;
+  top: -220px;
 }
 
 .contact_img_subtitle1 {
   position: relative;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  left: 715px;
-  top: 30px;
+  left: 447px;
+  top: 15px;
 }
 
 .contact_img_subtitle2 {
   position: relative;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  left: 1080px;
-  top: -268px;
+  left: 730px;
+  top: -230px;
 }
 
 /* Projects page (projects.html) */
 .projects_body {
   font-family: 'Poppins', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   position: relative;
   text-align: center;
   top: 10px;
 }
 
 .projects_box1 {
-  position: absolute;
-  left: 1000px;
-  top: 200px;
+  position: relative;
+  left: 200px;
+  top: 10px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -342,8 +323,8 @@ body {
   font-size: 15px;
   color: #23272A;
   position: relative;
-  top: 40px;
-  left: 1025px;
+  top: -300px;
+  left: 225px;
   padding: 20px;
   width: 300px;
   text-align: center;
@@ -352,9 +333,9 @@ body {
 }
 
 .projects_box2 {
-  position: absolute;
-  left: 1000px;
-  top: 550px;
+  position: relative;
+  left: 650px;
+  top: -455px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -381,8 +362,8 @@ body {
   font-size: 15px;
   color: #23272A;
   position: relative;
-  top: 295px;
-  left: 1025px;
+  top: -760px;
+  left: 675px;
   padding: 20px;
   width: 300px;
   text-align: center;
@@ -391,9 +372,9 @@ body {
 }
 
 .projects_box3 {
-  position: absolute;
-  left: 500px;
-  top: 200px;
+  position: relative;
+  left: 200px;
+  top: -600px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -421,8 +402,8 @@ body {
   font-size: 15px;
   color: #23272A;
   position: relative;
-  top: -162px;
-  left: 525px;
+  top: -900px;
+  left: 225px;
   padding: 20px;
   width: 300px;
   text-align: center;
@@ -432,8 +413,8 @@ body {
 
 .projects_box4 {
   position: absolute;
-  left: 500px;
-  top: 550px;
+  left: 650px;
+  top: 543px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -461,8 +442,8 @@ body {
   font-size: 15px;
   color: #23272A;
   position: relative;
-  top: 85px;
-  left: 525px;
+  top: -990px;
+  left: 680px;
   padding: 20px;
   width: 300px;
   text-align: center;
@@ -472,16 +453,16 @@ body {
 /* Education page (education.html) */
 .education_body {
   font-family: 'Poppins', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   position: relative;
   text-align: center;
   top: 10px;
 }
 
 .education_box_1 {
-  position: absolute;
-  left: 525px;
-  top: 200px;
+  position: relative;
+  left: 200px;
+  top: 20px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -502,9 +483,9 @@ body {
 }
 
 .education_box_2 {
-  position: absolute;
-  left: 950px;
-  top: 200px;
+  position: relative;
+  left: 625px;
+  top: -320px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -521,9 +502,9 @@ body {
 }
 
 .education_box_3 {
-  position: absolute;
-  left: 525px;
-  top: 525px;
+  position: relative;
+  left: 200px;
+  top: -330px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -543,9 +524,9 @@ body {
 }
 
 .education_box_4 {
-  position: absolute;
-  left: 950px;
-  top: 525px;
+  position: relative;
+  left: 625px;
+  top: -670px;
   width: 400px;
   height: 300px;
   margin: 40px 0;
@@ -566,17 +547,17 @@ body {
 
 .education_subtitle {
   font-family: 'Poppins', sans-serif;
-  font-size: 45px;
+  font-size: 35px;
   position: relative;
   text-align: center;
-  top: 650px;
+  top: -670px;
   right: 10px;
 }
 
 .education_course_box_1 {
-  position: absolute;
-  left: 525px;
-  top: 950px;
+  position: relative;
+  left: 200px;
+  top: -675px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -592,9 +573,9 @@ body {
 }
 
 .education_course_box_2 {
-  position: absolute;
-  left: 950px;
-  top: 950px;
+  position: relative;
+  left: 625px;
+  top: -915px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -611,9 +592,9 @@ body {
 }
 
 .education_course_box_3 {
-  position: absolute;
-  left: 525px;
-  top: 1175px;
+  position: relative;
+  left: 200px;
+  top: -925px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -630,9 +611,9 @@ body {
 }
 
 .education_course_box_4 {
-  position: absolute;
-  left: 950px;
-  top: 1175px;
+  position: relative;
+  left: 625px;
+  top: -1165px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -649,9 +630,9 @@ body {
 }
 
 .education_course_box_5 {
-  position: absolute;
-  left: 525px;
-  top: 1400px;
+  position: relative;
+  left: 200px;
+  top: -1175px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -668,9 +649,9 @@ body {
 }
 
 .education_course_box_6 {
-  position: absolute;
-  left: 950px;
-  top: 1400px;
+  position: relative;
+  left: 625px;
+  top: -1415px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -687,9 +668,9 @@ body {
 }
 
 .education_course_box_7 {
-  position: absolute;
-  left: 525px;
-  top: 1625px;
+  position: relative;
+  left: 200px;
+  top: -1425px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -706,9 +687,9 @@ body {
 }
 
 .education_course_box_8 {
-  position: absolute;
-  left: 950px;
-  top: 1625px;
+  position: relative;
+  left: 625px;
+  top: -1665px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -725,9 +706,9 @@ body {
 }
 
 .education_course_box_9 {
-  position: absolute;
-  left: 525px;
-  top: 1850px;
+  position: relative;
+  left: 200px;
+  top: -1675px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -744,9 +725,9 @@ body {
 }
 
 .education_course_box_10 {
-  position: absolute;
-  left: 950px;
-  top: 1850px;
+  position: relative;
+  left: 625px;
+  top: -1915px;
   width: 400px;
   height: 200px;
   margin: 40px 0;
@@ -757,26 +738,6 @@ body {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  border-radius: 5%;
-  word-wrap: normal;
-
-}
-
-/* this is to give space at the end of the website */
-.empty_box {
-  position: absolute;
-  left: 950px;
-  top: 2100px;
-  width: 300px;
-  height: 100px;
-  margin: 40px 0;
-  background: #2C2F33;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #2C2F33;
   border-radius: 5%;
   word-wrap: normal;
 
